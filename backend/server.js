@@ -52,7 +52,7 @@ app.use(notFound)
 app.use(errorHandler)
 
 const PORT = process.env.PORT || 5000
-app.listen(5000, console.log(`server running in ${process.env.NODE_ENV}started on http://localhost:${PORT}`.yellow.bold))
+app.listen(PORT, console.log(`server running in ${process.env.NODE_ENV}started on http://localhost:${PORT}`.yellow.bold))
 
 
 
